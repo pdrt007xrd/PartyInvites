@@ -29,7 +29,7 @@ namespace PartyInvites.Controllers
             return View("Thanks", guestResponse);
         }
 
-        public ViewResult ListResponses()
+        public ViewResult ListResponse()
         {
             return View(Repository.Responses.Where(r => r.WillAttend == true));
         }
