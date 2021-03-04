@@ -9,12 +9,18 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>Pagina de INICIO</title>
+    <link href="/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
 </head>
 <body>
-    <div>
+    <div class="text-center">
+        <h3>Vamos a la mejor Fiesta!!</h3>
+        <h4>Estan todos invitados</h4>
+        <a class="btn btn-primary" asp-action="RsvpForm">Reserve Ahora!</a>
+    </div>
+    @*<div>
        @ViewBag.Saludando World (Desde la vista)
         <p>We re going to have an exciting party.<br/>(to do: sell it better. Add pictures or something.)</p>
         <center><a asp-action="RsvpForm">Reserve ahora</a></center>
-    </div>
+    </div>*@
 </body>
 </html>
